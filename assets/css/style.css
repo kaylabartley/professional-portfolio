@@ -3,7 +3,10 @@
     --secondary-color: #fdd3e9;
     --tertiary-color: #bf1771;
   }
-  
+  a {
+    text-decoration: none;
+    color: var(--secondary-color);
+  }
   * {
     box-sizing: border-box;
     margin: 0;
